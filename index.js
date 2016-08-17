@@ -45,7 +45,7 @@ wsServer.on('request', function(request) {
             "level": (Math.random() * 3).toFixed(0)
         };
         connection.send(JSON.stringify(random));
-    }, 5000);
+    }, 50000);
 
     connection.on('message', function(message) {
         if (message.type === 'utf8') {
