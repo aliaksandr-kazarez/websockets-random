@@ -1,0 +1,25 @@
+{
+  "name": "websockets-random",
+  "version": "1.0.0",
+  "description": "Websockets server which generates random mesages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozorezal/websockets-random.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kozorezal/websockets-random/issues"
+  },
+  "homepage": "https://github.com/kozorezal/websockets-random#readme",
+  "dependencies": {
+    "websocket": "^1.0.23"
+  },
+  "devDependencies": {
+  }
+}
